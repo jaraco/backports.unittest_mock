@@ -1,4 +1,8 @@
 backports.unittest_mock
 =======================
 
-`Documentation <https://pythonhosted.org/backports.unittest_mock>`_
+Provides a function "install()" which makes the "mock" module
+available as "unittest.mock" on Python 3.2 and earlier.
+
+Also advertises a pytest plugin which configures unittest.mock
+automatically.
