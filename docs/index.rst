@@ -1,5 +1,5 @@
 Welcome to backports.unittest_mock documentation!
-========================================
+=================================================
 
 .. toctree::
    :maxdepth: 1
