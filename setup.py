@@ -13,7 +13,7 @@ with io.open('README.rst', encoding='utf-8') as readme:
 needs_wheel = set(['release', 'bdist_wheel', 'dists']).intersection(sys.argv)
 wheel = ['wheel'] if needs_wheel else []
 
-name = 'skeleton'
+name = 'backports.unittest_mock'
 description = ''
 
 setup_params = dict(
