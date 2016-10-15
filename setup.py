@@ -30,9 +30,9 @@ setup_params = dict(
 	install_requires=[
 	],
 	extras_require={
-		':python_version=="2.7" or '
-		'python_version="2.6" or '
-		'python_version="3.2"': [
+		':python_version=="2.7" or'
+		' python_version=="2.6" or'
+		' python_version=="3.2"': [
 			"mock",
 		],
 	},
