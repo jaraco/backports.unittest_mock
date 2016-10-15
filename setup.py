@@ -10,7 +10,7 @@ import setuptools
 with io.open('README.rst', encoding='utf-8') as readme:
 	long_description = readme.read()
 
-needs_wheel = {'release', 'bdist_wheel', 'dists'}.intersection(sys.argv)
+needs_wheel = set(['release', 'bdist_wheel', 'dists']).intersection(sys.argv)
 wheel = ['wheel'] if needs_wheel else []
 
 name = 'skeleton'
