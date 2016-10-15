@@ -1,5 +1,4 @@
 import sys
-import importlib
 import unittest
 
 
@@ -8,7 +7,7 @@ def install():
     if sys.version_info > (3,3):
         return
 
-    mock = importlib.import_module('mock')
+    mock = __import__('mock')
     sys.modules['unittest.mock'] = unittest.mock = mock
 
 
