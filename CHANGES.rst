@@ -1,3 +1,8 @@
+1.2.1
+=====
+
+Bump setuptools_scm and other skeleton updates.
+
 1.2
 ===
 
