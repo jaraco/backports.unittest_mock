@@ -3,7 +3,7 @@ language: python
 python:
 - 2.6
 - 2.7
-- 3.5
+- 3.6
 install:
 - pip install tox "setuptools>=28.2"
 script:
@@ -17,8 +17,9 @@ deploy:
   on:
     tags: true
     all_branches: true
-    python: 3.5
+    python: 3.6
   user: jaraco
   distributions: dists
+  skip_upload_docs: true
   password:
     secure: hvxJUMYKOlVTa4d0bhO7FfYOLu6lIR5fNYl97NLXlp7MhQ+/ZWKRiu0OZ/VHBDe0ZaJAp3Gq9zw9QsikNLzMBuA8miyW1L0ASw+rAm5U3W/FoYOgftUhdF/vjI84pDgMHLdRKlXlyRKpN8OtjBalQetP4yPUyqSUgZY27Q/ZO4Sbap34CHU8hhoCfLAnc+sHl9eDwkMpJd04kQLjui0QwsHH/ChVPL+kEIbWLeJsd5SLvlBUhVuCqS5O/UKaZOdJVa0tVWtPKAJhj1cUMKQt3GtGjlIXXrpIX5Mq4xfxH5jRjwQu0NapCIlT0u59T8H0ollt5wuamWs3e2hlCiQsq7Yy36a/OpF1qzg06cro+0FheDYaeQuN0tC1/y/jtEdNTu7VzVNDINfBV1T7liCeOkEKSUyCajlRVa1cCVtNV8ct2VuJiSa+Kao14OUFCHwqH3IZHdEm1QCpScuYZjaoj9hqIPQPFYspJl5OfTGIhhXuZcwWU0zofLJSTjSxIMkkJHNaszGZzZiPTh0tjBlfPImj28/zY0mywHiq0xBYN937x6u1JVIRu8yTAqfMzfreNXywsjuejpVtjPGYRM1fQrtnhoGZrpCk/38XV5XdKlrYZmsZtSy90GWFHlsHemtnAR6TGmzGeXAZIT2uhjFymg2CYLgGENhO4pfVFxa1ork=
