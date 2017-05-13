@@ -1,3 +1,10 @@
+1.3
+===
+
+Merge with skeleton.
+
+Use ``pkgutil`` for backports namespace package.
+
 1.2.1
 =====
 
