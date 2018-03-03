@@ -3,10 +3,11 @@
 
 .. image:: https://img.shields.io/pypi/pyversions/backports.unittest_mock.svg
 
-.. image:: https://img.shields.io/pypi/dm/backports.unittest_mock.svg
-
 .. image:: https://img.shields.io/travis/jaraco/backports.unittest_mock/master.svg
-   :target: http://travis-ci.org/jaraco/backports.unittest_mock
+   :target: https://travis-ci.org/jaraco/backports.unittest_mock
+
+.. image:: https://readthedocs.org/projects/backportsunittest_mock/badge/?version=latest
+   :target: https://backportsunittest_mock.readthedocs.io/en/latest/?badge=latest
 
 Provides a function "install()" which makes the "mock" module
 available as "unittest.mock" on Python 3.2 and earlier.
