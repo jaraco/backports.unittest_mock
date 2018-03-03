@@ -4,7 +4,7 @@ import unittest
 
 def install():
     "make mock appear from the future"
-    if sys.version_info > (3,3):
+    if sys.version_info > (3, 3):
         return
 
     mock = __import__('mock')
@@ -12,4 +12,4 @@ def install():
 
 
 def pytest_configure():
-	install()
+    install()
