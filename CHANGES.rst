@@ -1,3 +1,8 @@
+1.4
+===
+
+Package refresh. Added Pytest Trove classifier.
+
 1.3
 ===
 
