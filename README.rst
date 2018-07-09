@@ -6,6 +6,9 @@
 .. image:: https://img.shields.io/travis/jaraco/backports.unittest_mock/master.svg
    :target: https://travis-ci.org/jaraco/backports.unittest_mock
 
+.. .. image:: https://img.shields.io/appveyor/ci/jaraco/backports-unittest_mock/master.svg
+..    :target: https://ci.appveyor.com/project/jaraco/backports-unittest_mock/branch/master
+
 .. image:: https://readthedocs.org/projects/backportsunittest_mock/badge/?version=latest
    :target: https://backportsunittest_mock.readthedocs.io/en/latest/?badge=latest
 
@@ -14,14 +17,6 @@ available as "unittest.mock" on Python 3.2 and earlier.
 
 Also advertises a pytest plugin which configures unittest.mock
 automatically.
-
-
-License
-=======
-
-License is indicated in the project metadata (typically one or more
-of the Trove classifiers). For more details, see `this explanation
-<https://github.com/jaraco/skeleton/issues/1>`_.
 
 Usage
 =====
