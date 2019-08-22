@@ -1,3 +1,8 @@
+1.5
+===
+
+Refresh project metadata.
+
 1.4
 ===
 
