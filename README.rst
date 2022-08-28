@@ -1,17 +1,18 @@
 .. image:: https://img.shields.io/pypi/v/backports.unittest_mock.svg
-   :target: https://pypi.org/project/backports.unittest_mock
+   :target: `PyPI link`_
 
 .. image:: https://img.shields.io/pypi/pyversions/backports.unittest_mock.svg
+   :target: `PyPI link`_
 
-.. image:: https://img.shields.io/travis/jaraco/backports.unittest_mock/master.svg
-   :target: https://travis-ci.org/jaraco/backports.unittest_mock
+.. _PyPI link: https://pypi.org/project/backports.unittest_mock
+
+.. image:: https://github.com/jaraco/backports.unittest_mock/workflows/Automated%20Tests/badge.svg
+   :target: https://github.com/jaraco/backports.unittest_mock/actions?query=workflow%3A%22Automated+Tests%22
+   :alt: Automated Tests
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-   :target: https://github.com/ambv/black
+   :target: https://github.com/psf/black
    :alt: Code style: Black
-
-.. .. image:: https://img.shields.io/appveyor/ci/jaraco/backports-unittest_mock/master.svg
-..    :target: https://ci.appveyor.com/project/jaraco/backports-unittest_mock/branch/master
 
 .. image:: https://readthedocs.org/projects/backportsunittest_mock/badge/?version=latest
    :target: https://backportsunittest_mock.readthedocs.io/en/latest/?badge=latest
