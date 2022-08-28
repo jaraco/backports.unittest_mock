@@ -6,9 +6,9 @@
 
 .. _PyPI link: https://pypi.org/project/backports.unittest_mock
 
-.. image:: https://github.com/jaraco/backports.unittest_mock/workflows/Automated%20Tests/badge.svg
-   :target: https://github.com/jaraco/backports.unittest_mock/actions?query=workflow%3A%22Automated+Tests%22
-   :alt: Automated Tests
+.. image:: https://github.com/jaraco/backports.unittest_mock/workflows/tests/badge.svg
+   :target: https://github.com/jaraco/backports.unittest_mock/actions?query=workflow%3A%22tests%22
+   :alt: tests
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black
@@ -16,6 +16,9 @@
 
 .. image:: https://readthedocs.org/projects/backportsunittest_mock/badge/?version=latest
    :target: https://backportsunittest_mock.readthedocs.io/en/latest/?badge=latest
+
+.. image:: https://img.shields.io/badge/skeleton-2022-informational
+   :target: https://blog.jaraco.com/skeleton
 
 Provides a function "install()" which makes the "mock" module
 available as "unittest.mock" on Python 3.2 and earlier.
