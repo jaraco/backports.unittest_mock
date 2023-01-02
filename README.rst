@@ -14,7 +14,7 @@
 .. image:: https://readthedocs.org/projects/backportsunittest_mock/badge/?version=latest
    :target: https://backportsunittest_mock.readthedocs.io/en/latest/?badge=latest
 
-.. image:: https://img.shields.io/badge/skeleton-2022-informational
+.. image:: https://img.shields.io/badge/skeleton-2023-informational
    :target: https://blog.jaraco.com/skeleton
 
 Provides a function "install()" which makes the "mock" module
